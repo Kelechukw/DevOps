@@ -1,7 +1,7 @@
 <?php
 //file path to function and CRUDOPs 
-require_once ("C:/xampp/htdocs/CRUD/NewCrud/function.php"); 
-require_once ("C:/xampp/htdocs/CRUD/NewCrud/CRUDOps.php");
+require_once ("function.php"); 
+require_once ("CRUDOps.php");
 
 
 ?>
