@@ -1,12 +1,12 @@
 <?php
 function Createdb(){
-    $servername="localhost";
-    $username="root";
-    $password="";
-    $dbname="VolleyBall";
+    define ('DB_NAME' , $_SERVER['volleyball']);
+    define ('DB_USER' , $_SERVER['kelly']);
+    define ('DB_PASSWORD' , $_SERVER['pulchritude']);
+    define ('DB_HOST' , $_SERVER['volleyball.cuvw75x4fs8i.us-east-1.rds.amazonaws.com']);
 
     //create connection
-    $con = mysqli_connect($servername,$username,$password);
+    $con = mysqli_connect($_SERVER['volleyball.cuvw75x4fs8i.us-east-1.rds.amazonaws.com'], $_SERVER['kelly'], $_SERVER['pulchritude'], $_SERVER['volleyball']);
 
     //check connection
     if(!$con){
