@@ -8,7 +8,7 @@ $password = 'pulchritude';
 
 
     //create connection
-    $con = mysqli_connect("volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com","kelly","pulchritude","volley");
+    $con = mysqli_connect("volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com","kelly","pulchritude","volleyball");
 
     //check connection
     if(!$con){
