@@ -3,10 +3,10 @@ function Createdb(){
     define ('DB_NAME' , $_SERVER['volleyball']);
     define ('DB_USER' , $_SERVER['kelly']);
     define ('DB_PASSWORD' , $_SERVER['pulchritude']);
-    define ('DB_HOST' , $_SERVER['volleyball.cuvw75x4fs8i.us-east-1.rds.amazonaws.com']);
+    define ('DB_HOST' , $_SERVER['volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com']);
 
     //create connection
-    $con = mysqli_connect($_SERVER['volleyball.cuvw75x4fs8i.us-east-1.rds.amazonaws.com'], $_SERVER['kelly'], $_SERVER['pulchritude'], $_SERVER['volleyball']);
+    $con = mysqli_connect($_SERVER['volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com'], $_SERVER['kelly'], $_SERVER['pulchritude'], $_SERVER['volleyball']);
 
     //check connection
     if(!$con){
