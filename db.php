@@ -1,12 +1,14 @@
 <?php
 function Createdb(){
-    define ('DB_NAME' , $_SERVER['volleyball']);
-    define ('DB_USER' , $_SERVER['kelly']);
-    define ('DB_PASSWORD' , $_SERVER['pulchritude']);
-    define ('DB_HOST' , $_SERVER['volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com']);
+$dbhost = 'volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
+$dbport = '3306 ';
+$dbname = 'volley';
+$username = 'kelly ';
+$password = 'pulchritude';
+
 
     //create connection
-    $con = mysqli_connect($_SERVER['volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com'], $_SERVER['kelly'], $_SERVER['pulchritude'], $_SERVER['volleyball']);
+    $con = mysqli_connect("volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com","kelly","pulchritude","volley");
 
     //check connection
     if(!$con){
