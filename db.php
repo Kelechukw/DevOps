@@ -2,7 +2,7 @@
 function Createdb(){
 $dbhost = 'volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
 $dbport = '3306 ';
-$dbname = 'volley';
+$dbname = 'volleyball';
 $username = 'kelly ';
 $password = 'pulchritude';
 
