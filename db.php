@@ -1,6 +1,6 @@
 <?php
 function Createdb(){
-$dbhost = 'volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
+$dbhost = 'v2.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
 $dbport = '3306 ';
 $dbname = 'volleyball';
 $username = 'kelly ';
@@ -8,7 +8,7 @@ $password = 'pulchritude';
 
 
     //create connection
-    $con = mysqli_connect("volleyball.csnql2pkuxse.eu-west-1.rds.amazonaws.com","kelly","pulchritude","volleyball");
+    $con = mysqli_connect("v2.csnql2pkuxse.eu-west-1.rds.amazonaws.com","kelly","pulchritude","volleyball");
 
     //check connection
     if(!$con){
