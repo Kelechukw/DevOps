@@ -1,5 +1,4 @@
 <?php
-function Createdb(){
 $dbhost = 'v2.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
 $dbport = '3306 ';
 $dbname = 'volleyball';
@@ -15,4 +14,4 @@ $password = 'pulchritude';
         die("Connection Failed:" .mysqli_connect_error());
     }
 
-   
+   ?>
