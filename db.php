@@ -1,4 +1,5 @@
 <?php
+function Createdb(){
 $dbhost = 'v2.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
 $dbport = '3306 ';
 $dbname = 'volleyball';
@@ -13,5 +14,8 @@ $password = 'pulchritude';
     if(!$con){
         die("Connection Failed:" .mysqli_connect_error());
     }
-
+            $sql="CREATE DATABASE IF NOT EXISTS $dbname";
    ?>
+
+
+    
