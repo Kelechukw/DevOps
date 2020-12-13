@@ -89,11 +89,7 @@ require_once ("CRUDOps.php");
                                    <td data-id="<?php echo $row['id']; ?>"><?php echo $row['Location']; ?></td>
                                    <td ><i class="fas fa-edit btnedit" data-id="<?php echo $row['id']; ?>"></i></td>
                                    
-                               </tr>
-                    if(isset($POST['create'])){
-                    $result= INSERT INTO playerss (Firstname , Lastname , Height , Location) 
-                    VALUES('$fname','$lname','$height','$address')";
-                    }
+                    </tr>
                    <?php
                            }
 
