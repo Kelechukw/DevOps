@@ -30,7 +30,7 @@ function createData(){
     $address=textboxValue("Location");
 
     if($fname&&$lname&&$height&&$address){
-        $sql="INSERT INTO playerss (Firstname,Lastname,Height,Location)
+        $sql="INSERT INTO `playerss` (`Firstname`,`Lastname`,`Height`,`Location`)
         VALUES('$fname','$lname','$height','$address')";
 
         if(mysqli_query($GLOBALS['con'], $sql)){
