@@ -3,7 +3,7 @@
 require_once ("db.php");
 require_once ("function.php");
 //Assign value to DB creation
-$con = Createdb();
+//$con = Createdb();
 
 // create button click
 if(isset($_POST['create'])){
@@ -119,7 +119,7 @@ function deleteBtn(){
         while ($row = mysqli_fetch_assoc($result)){
             $i++;
             if($i > 3){
-                buttonElement("btn-deleteall", "btn btn-danger" ,"<i class='fas fa-trash'></i> Delete All", "deleteall", "");
+                buttonElement("btn-deleteall", "btn btn-danger" ,"<i class='fas fa-trash'></i> Delete All", "deleteall", "deleteall");
                 return;
             }
         }
