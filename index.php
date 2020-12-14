@@ -49,10 +49,10 @@ $con= createdb();
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                <?php buttonElement("btn-create","btn btn-success","Create" ,"create","dat-toggle='tooltip'data-placement='bottom'title='Create'"); ?>
-                <?php  buttonElement("btn-view","btn btn-primary","View" ,"view","dat-toggle='tooltip'data-placement='bottom'title='view'");?>
-                <?php  buttonElement("btn-update","btn btn-success","Update" ,"update","dat-toggle='tooltip'data-placement='bottom'title='update'");?>
-                <?php  buttonElement("btn-delete","btn btn-danger","Delete Players" ,"delete players","dat-toggle='tooltip'data-placement='bottom'title='delete'");?>
+                <?php buttonElement("btn-create","btn btn-success","Create" ,"create"); ?>
+                <?php  buttonElement("btn-view","btn btn-primary","View" ,"view");?>
+                <?php  buttonElement("btn-update","btn btn-success","Update" ,"update");?>
+                <?php  buttonElement("btn-delete","btn btn-danger","Delete Players" ,"delete players");?>
                         <?php deleteBtn();?>
                 </div><br>
             </form>
