@@ -33,7 +33,7 @@ function createData(){
         $sql="INSERT INTO `playerss` (`Firstname`,`Lastname`,`Height`,`Location`)
         VALUES('$fname','$lname','$height','$address')";
 
-        if(mysqli_query($GLOBALS['con', $sql)){
+        if(mysqli_query($GLOBALS['con'], $sql)){
             TextNode("success","Succesfully Recorded!");
            
         }else{
@@ -45,7 +45,7 @@ function createData(){
 }
 
 function textboxValue($value){
-    $textbox = mysqli_real_escape_string($GLOBALS['con', trim($_POST[$value]));
+    $textbox = mysqli_real_escape_string($GLOBALS['con'], trim($_POST[$value]));
     if(empty($textbox)){
         return false;
     }else{
@@ -64,7 +64,7 @@ function TextNode($classname, $msg){
 function getData(){
     $sql = "SELECT * FROM playerss";
 
-    $result = mysqli_query($GLOBALS['con', $sql);
+    $result = mysqli_query($GLOBALS['con'], $sql);
 
     if(mysqli_num_rows($result) > 0){
         return $result;
@@ -84,7 +84,7 @@ function UpdateData(){
                     UPDATE playerss SET Firstname='$fname', Lastname = '$lname', Height = '$height', Location= '$address'    WHERE ID='$id';                    
         ";
 
-        if(mysqli_query($GLOBALS['con', $sql)){
+        if(mysqli_query($GLOBALS['con'], $sql)){
             TextNode("success", "Successfully Updated");
         }else{
             TextNode("error", "Unable to Update Data");
@@ -103,7 +103,7 @@ function deleteRecord(){
 
     $sql = "DELETE FROM playerss WHERE id=$id";
 
-    if(mysqli_query($GLOBALS['con', $sql)){
+    if(mysqli_query($GLOBALS['con'], $sql)){
         TextNode("success","Deleted Successfully...!");
     }else{
         TextNode("error","Unable to Delete Record...!");
@@ -130,7 +130,7 @@ function deleteBtn(){
 function deleteAll(){
     $sql = "DROP playerss ";
 
-    if(mysqli_query($GLOBALS['con', $sql)){
+    if(mysqli_query($GLOBALS['con'], $sql)){
         TextNode("success","All Record deleted Successfully...!");
         Createdb();
     }else{
