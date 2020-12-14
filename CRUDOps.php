@@ -3,7 +3,7 @@
 require_once ("db.php");
 require_once ("function.php");
 //Assign value to DB creation
-//$con = Createdb();
+$con = Createdb();
 
 // create button click
 if(isset($_POST['create'])){
