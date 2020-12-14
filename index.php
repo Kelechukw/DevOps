@@ -4,8 +4,6 @@ require_once ("function.php");
 require_once ("CRUDOps.php");
 
 $con= createdb();
-
-
 ?>
 
 <!doctype html>
@@ -64,12 +62,12 @@ $con= createdb();
         <!-- <div class="d-flex table-data">-->
         <center><table style="width:70%" ></center>
                     <tr>
-                        <th>ID</th>
-                        <th>Firstname</th>
-                        <th>Lastname</th>
-                        <th>Height</th>
-                        <th>Location</th>
-                        <th>Edit</th>
+                        <th scope = "col">ID</th>
+                        <th scope = "col">Firstname</th>   
+                        <th scope = "col">Lastname</th>
+                        <th scope = "col">Height</th>
+                        <th scope = "col">Location</th>
+                        <th scope = "col">Edit</th>
                     </tr>
                 </thead>
                 <tbody id="tbody">
