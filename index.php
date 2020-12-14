@@ -58,9 +58,10 @@ $con= createdb();
             </form>
         </div>
 
-        <!-- Bootstrap table  -->
-        <!-- <div class="d-flex table-data">-->
-        <center><table style="width:70%" ></center>
+       
+        
+        <table style="width:70%" >
+            <thead>
                     <tr>
                         <th scope = "col">ID</th>
                         <th scope = "col">Firstname</th>   
