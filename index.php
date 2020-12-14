@@ -38,7 +38,7 @@ $con= createdb();
                 </div><br>
                 <!--<div class="row pt-2">-->
                     <div class="col">
-                        <?php inputElement("Lastname", "Lastname",""); ?>
+                        <?php inputElement("Lastname", "FIrstname",""); ?>
                     </div><br>
                     
                     <div class="col">
