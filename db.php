@@ -2,7 +2,7 @@
 function Createdb(){
 $databasehost = 'v2.csnql2pkuxse.eu-west-1.rds.amazonaws.com';
 $databaseName = 'volleyball';
-$databaseUsername = 'kelly ';
+$databaseUsername = 'kelly';
 $databasePassword = 'pulchritude';
 
 
