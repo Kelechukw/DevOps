@@ -23,7 +23,6 @@ input[type=text], select, textarea {
   }
   table, th, td {
     border: 1px solid black;
-    align: center;
    
   }
   .d-flex button{
