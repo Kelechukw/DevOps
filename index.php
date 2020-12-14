@@ -26,7 +26,7 @@ $con= createdb();
 
 <main>
     <div class="container text-center">
-        <h1 class="py-4 bg-light text-dark rounded"><i class="fas fa-volleyball-ball"></i> Foursquare VolleyBall Association</h1>
+        <h1 class="py-4 bg-light text-dark rounded"><i class="fas fa-volleyball-ball"></i> Foursquare VolleyBall Association FInal</h1>
 
         <div class="d-flex justify-content-center">
             <form action="" method="post" class="w-50">
@@ -34,11 +34,11 @@ $con= createdb();
                     <?php inputElement("ID", "id",setID()); ?>
                 </div>
                 <div class="pt-2">
-                    <?php inputElement("Kelechukwu", "Firstname",""); ?>
+                    <?php inputElement("Firstname", "Firstname",""); ?>
                 </div><br>
                 <!--<div class="row pt-2">-->
                     <div class="col">
-                        <?php inputElement("Lastname", "FIrstname",""); ?>
+                        <?php inputElement("Chima", "Lastname",""); ?>
                     </div><br>
                     
                     <div class="col">
