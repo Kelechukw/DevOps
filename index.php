@@ -3,6 +3,8 @@
 require_once ("function.php"); 
 require_once ("CRUDOps.php");
 
+$con= createdb();
+
 
 ?>
 
