@@ -26,7 +26,7 @@ $con= createdb();
 
 <main>
     <div class="container text-center">
-        <h1 class="py-4 bg-light text-dark rounded"><i class="fas fa-volleyball-ball"></i> Foursquare VolleyBall Association Session</h1>
+        <h1 class="py-4 bg-light text-dark rounded"><i class="fas fa-volleyball-ball"></i> Four  square VolleyBall Association Session</h1>
 
         <div class="d-flex justify-content-center">
             <form action="" method="post" class="w-50">
